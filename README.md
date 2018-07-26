@@ -41,7 +41,7 @@ Usage
  ------
 
  ```
-    cd /src
+    cd src/
     go build
     mv src /bin/block
  ```
