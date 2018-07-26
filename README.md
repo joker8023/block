@@ -31,8 +31,6 @@ Usage
      ./block getbalance --address {钱包地址}
      # 挖矿
      ./block createblockchain --address {钱包地址}
-     # 挖矿
-     ./block createblockchain --address {钱包地址}
      # 查看所有区块
      ./block printchain
      # 转账
