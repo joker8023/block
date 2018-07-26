@@ -1,9 +1,6 @@
-package coin
+package main
 
-import (
-	"core"
-)
-
+import "core"
 func main() {
 	cli := core.CLI{}
 	cli.Run()

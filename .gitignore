@@ -1,0 +1,26 @@
+# Created by https://www.gitignore.io/api/go,macos,pycharm,visualstudiocode
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+/vendor/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.idea/
+
+### VisualStudioCode ###
+.vscode/
+

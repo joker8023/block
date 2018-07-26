@@ -2,10 +2,10 @@ package core
 
 import "fmt"
 
-func (cli *CLI) createWallet(nodeID string) {
-	wallets, _ := NewWallets(nodeID)
+func (cli *CLI) createWallet() {
+	wallets, _ := NewWallets()
 	address := wallets.CreateWallet()
-	wallets.SaveToFile(nodeID)
+	wallets.SaveToFile()
 
 	fmt.Printf("Your new address: %s\n", address)
 }
