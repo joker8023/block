@@ -12,6 +12,8 @@
 *.test
 
 /vendor/
+/pkg/
+/bin/
 
 ### macOS ###
 # General

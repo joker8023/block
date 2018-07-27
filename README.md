@@ -42,6 +42,5 @@ Usage
 
  ```
     cd src/
-    go build
-    mv src ./bin/block
+    go build -o ../bin/block
  ```
