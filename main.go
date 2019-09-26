@@ -1,6 +1,7 @@
 package main
 
-import "core"
+import "block/core"
+
 func main() {
 	cli := core.CLI{}
 	cli.Run()
